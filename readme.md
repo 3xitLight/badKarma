@@ -10,17 +10,20 @@
 
 **badKarma** is an open source GUI based network reconnaissance toolkit which aims to assist penetration testers during network infrastructure assessments.
 
-## Screenshots ( not updated ) 
+## Screenshots ( not updated )
 <p align="center">
 	<img width="720" src="https://user-images.githubusercontent.com/635790/45002099-7161df80-afd3-11e8-8131-a4dfd8090562.gif">
 </p>
 
-## Setup 
-install Kali linux dependecies:
+## Setup  
+
+install Archlinux dependecies:
+
 ```bash
-# apt install python3-pip python3-gi phantomjs mitmproxy ffmpeg gir1.2-gtk-vnc-2.0 \
-gir1.2-gtksource-3.0 gir1.2-vte-2.91 gir1.2-osmgpsmap-1.0 gir1.2-webkit2-4.0 
+# pacman -S --needed --noconfirm python-pip gobject-introspection mitmproxy ffmpeg gtk-vnc \
+gtksourceview3 vte3 osm-gps-map webkit2gtk exploitdb --overwrite='*'
 ```
+
 clone the repository:
 ```bash
 $ git clone https://github.com/r3vn/badKarma.git
@@ -28,10 +31,10 @@ $ git clone https://github.com/r3vn/badKarma.git
 install python dependecies:
 ```bash
 # cd badKarma
-# pip3 install -r requirements.txt
+# pip install -r requirements.txt
 ```
 
-## Run 
+## Run
 
 ```bash
 $ chmod +x badkarma.py
@@ -42,6 +45,6 @@ $ ./badkarma.py
 
 Documentation can be found in this ![wiki](https://github.com/r3vn/badKarma/wiki).
 
-## Donate 
+## Donate
 
 If badKarma helped you during a penetration testing engagement, please consider making a donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SK6XQ2BKHYGH6&lc=en_XC). Bitcoins are accepted as well, at 1Dvvb3TGHRQwfLoUT8rVTPmHqgVjAJRcsm.
