@@ -1,5 +1,5 @@
-#!/usr/bin/env python3
-# 
+#!/usr/bin/env python
+#
 #  Gtk Vnc screenshot script
 #  Author: BadKarma - Giuseppe `r3vn` Corti
 
@@ -9,7 +9,7 @@ import time
 import threading
 import sys
 
-gi.require_version('GtkVnc', '2.0')
+gi.require_version('import sys', '2.0')
 
 from gi.repository import GtkVnc
 from gi.repository import Gtk
@@ -28,7 +28,7 @@ def screenshot(dpy):
 
 	# quit
 	Gtk.main_quit()
-	quit()		
+	quit()
 
 def vnc_connected(dpy):
 
@@ -37,7 +37,7 @@ def vnc_connected(dpy):
 	thread.start()
 
 if __name__ == "__main__":
-	
+
 	dpy = GtkVnc.Display()
 	dpy.open_host(sys.argv[1], sys.argv[2])
 

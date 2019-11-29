@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 #coding=utf-8
 # vim: set filetype=python ts=4 sw=4 sts=4 expandtab autoindent :
 
@@ -7,7 +7,7 @@ Get username and password from http://www.bugmenot.com/
 
 File: bugmynot.py
 Original Author: notsobad.me
-Python3 port + new regex: @r3vn /badKarma
+python port + new regex: @r3vn /badKarma
 
 '''
 

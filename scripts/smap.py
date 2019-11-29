@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # Shodanmap - badKarma's shodan.io api scanner
 #
 # Copyright (C) 2018 <Giuseppe `r3vn` Corti>

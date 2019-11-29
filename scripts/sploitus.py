@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 import requests, json, sys
 
 q = sys.argv[1]

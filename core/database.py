@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # badKarma - network reconnaissance toolkit
 # ( https://badkarma.xfiltrated.com )
 #

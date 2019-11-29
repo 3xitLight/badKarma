@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # badKarma - network reconnaissance toolkit
 #
 # Copyright (C) 2018 <Giuseppe `r3vn` Corti>
@@ -75,7 +75,7 @@ class karma_ext(base_ext):
 
 		elif config["service"] == "vnc":
 			# VNC screenshot
-			cmd += "python3 " + config["path_script"]+"/vnc_screenshot.py " + config["rhost"] +" "+ config["rport"] 
+			cmd += "python " + config["path_script"]+"/vnc_screenshot.py " + config["rhost"] +" "+ config["rport"] 
 
 		elif config["service"] == "rtsp":
 			# RTSP screenshot
