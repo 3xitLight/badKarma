@@ -26,7 +26,7 @@ gtksourceview3 vte3 osm-gps-map webkit2gtk exploitdb --overwrite='*'
 
 clone the repository:
 ```bash
-$ git clone https://github.com/r3vn/badKarma.git
+$ git clone https://github.com/3xitLight/badKarma.git
 ```
 install python dependecies:
 ```bash
