@@ -34,6 +34,12 @@ $ cd badKarma
 $ pip install --user -r requirements.txt
 ```
 
+install some additional software:
+```bash
+# pacman -S --needed --noconfirm rpcbind gnu-netcat
+```
+
+
 ## Run
 
 ```bash
