@@ -30,8 +30,8 @@ $ git clone https://github.com/3xitLight/badKarma.git
 ```
 install python dependecies:
 ```bash
-# cd badKarma
-# pip install -r requirements.txt
+$ cd badKarma
+$ pip install --user -r requirements.txt
 ```
 
 ## Run
