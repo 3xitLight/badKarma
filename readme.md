@@ -43,8 +43,8 @@ sudo pacman -S --needed --noconfirm rpcbind gnu-netcat
 ## Run
 
 ```bash
-$ chmod +x badkarma.py
-$ ./badkarma.py
+chmod +x badkarma.py
+./badkarma.py
 ```
 
 ## Documentation
