@@ -20,22 +20,23 @@
 install Archlinux dependecies:
 
 ```bash
-# pacman -S --needed --noconfirm python-pip gobject-introspection mitmproxy ffmpeg gtk-vnc gtksourceview3 vte3 osm-gps-map webkit2gtk exploitdb --overwrite='*'
+sudo pacman -S --needed --noconfirm python-pip gobject-introspection mitmproxy ffmpeg gtk-vnc gtksourceview3 vte3 osm-gps-map webkit2gtk exploitdb --overwrite='*'
 ```
 
 clone the repository:
 ```bash
-$ git clone https://github.com/3xitLight/badKarma.git
+git clone https://github.com/3xitLight/badKarma.git
 ```
 install python dependecies:
 ```bash
-$ cd badKarma
-$ pip install --user -r requirements.txt
+cd badKarma
+pip install --user -r requirements.txt
+sudo pip install -r requirements.txt
 ```
 
 install some additional software:
 ```bash
-# pacman -S --needed --noconfirm rpcbind gnu-netcat
+sudo pacman -S --needed --noconfirm rpcbind gnu-netcat
 ```
 
 
