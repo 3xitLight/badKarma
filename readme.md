@@ -20,7 +20,7 @@
 install Archlinux dependecies:
 
 ```bash
-sudo pacman -S --needed --noconfirm python-pip gobject-introspection mitmproxy ffmpeg gtk-vnc gtksourceview3 vte3 osm-gps-map webkit2gtk exploitdb --overwrite='*'
+sudo pacman -S --needed --noconfirm python-pip gobject-introspection python-sqlalchemy mitmproxy ffmpeg gtk-vnc gtksourceview3 vte3 osm-gps-map webkit2gtk exploitdb
 ```
 
 clone the repository:
@@ -30,8 +30,7 @@ git clone https://github.com/3xitLight/badKarma.git
 install python dependecies:
 ```bash
 cd badKarma
-pip install --user -r requirements.txt
-sudo pip install -r requirements.txt
+sudo pip install python-libnmap phantomjs-binary
 ```
 
 install some additional software:
