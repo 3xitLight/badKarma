@@ -20,8 +20,7 @@
 install Archlinux dependecies:
 
 ```bash
-# pacman -S --needed --noconfirm python-pip gobject-introspection mitmproxy ffmpeg gtk-vnc \
-gtksourceview3 vte3 osm-gps-map webkit2gtk exploitdb --overwrite='*'
+# pacman -S --needed --noconfirm python-pip gobject-introspection mitmproxy ffmpeg gtk-vnc gtksourceview3 vte3 osm-gps-map webkit2gtk exploitdb --overwrite='*'
 ```
 
 clone the repository:
